@@ -1,24 +1,23 @@
 import '../styles/styles.scss'
 import headerStyles from '../styles/header.module.scss'
-import { useState } from 'react'
 
-const Header = () => {
-	const [burgerOpen, setBurgerOpen] = useState(false)
-
+const Header = ({ burgerOpen, setBurgerOpen }) => {
 	return (
 		<section className={headerStyles.header}>
 			<div className={headerStyles.header_left}>
 				<div className={headerStyles.header_logo}>
-					<a href='/'>
+					<a href='#privelege'>
 						<img src='images/Logo.png' alt='' />
 					</a>
 				</div>
 				<div className={headerStyles.header_title}>
 					<div className={headerStyles.header_title_name}>
-						<a href='/'>ALEXBETON</a>
+						<a href='#privelege'>ALEXBETON</a>
 					</div>
 					<div className={headerStyles.header_description}>
-						<a href='/'>Производство и продажа строительных материалов</a>
+						<a href='#privelege'>
+							Производство и продажа строительных материалов
+						</a>
 					</div>
 				</div>
 			</div>
