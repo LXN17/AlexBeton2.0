@@ -1,7 +1,12 @@
 import '../styles/styles.scss'
 import headerStyles from '../styles/header.module.scss'
 
-const Header = ({ burgerOpen, setBurgerOpen }) => {
+interface headerProps {
+	burgerOpen: boolean
+	setBurgerOpen: React.Dispatch<React.SetStateAction<boolean>>
+}
+
+const Header: React.FC<headerProps> = ({ burgerOpen, setBurgerOpen }) => {
 	return (
 		<section className={headerStyles.header}>
 			<div className={headerStyles.header_left}>
