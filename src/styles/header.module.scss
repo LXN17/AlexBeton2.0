@@ -118,7 +118,15 @@
 		}
 	}
 
+	.header_right {
+		display: none;
+	}
+
 	@media (max-width: 1300px) {
+		.normi {
+			display: none;
+		}
+
 		.header_right {
 			position: fixed;
 			z-index: 50;

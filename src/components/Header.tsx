@@ -90,6 +90,22 @@ const Header: React.FC<headerProps> = ({ burgerOpen, setBurgerOpen }) => {
 					</li>
 				</ul>
 			</nav>
+			<nav className={headerStyles.normi}>
+				<ul className={headerStyles.header_navigation_list}>
+					<li>
+						<a href='#privelege'>ГЛАВНАЯ</a>
+					</li>
+					<li>
+						<a href='#price'>ТОВАР</a>
+					</li>
+					<li>
+						<a href='#vehicle'>ТЕХНИКА</a>
+					</li>
+					<li>
+						<a href='#contacts'>КОНТАКТЫ</a>
+					</li>
+				</ul>
+			</nav>
 		</section>
 	)
 }

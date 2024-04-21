@@ -52,6 +52,7 @@ const Contact = () => {
 								<img src='images/mail.png' alt='' />
 								<span> leqso_leqso.05@mail.ru</span>
 							</a>
+
 							<div className={contactStyles.contact_form}>
 								<div className={contactStyles.contact_form_content}>
 									<p className={contactStyles.contact_form_title}>

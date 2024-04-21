@@ -54,9 +54,11 @@ const Price = () => {
 					viewport={{ once: true }}
 					className={priceStyles.price_button}
 				>
-					<button id='openBtn2' className={priceStyles.price_link}>
-						<a href='#contacts_button'>Сделать заказ</a>
-					</button>
+					<a href='#contacts_button'>
+						<button id='openBtn2' className={priceStyles.price_link}>
+							Сделать заказ
+						</button>
+					</a>
 				</motion.div>
 			</div>
 		</motion.section>
